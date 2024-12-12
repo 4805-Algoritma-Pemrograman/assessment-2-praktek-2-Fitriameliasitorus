@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class FizzBuzz {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        //*Mulai pekerjaan*//
+    //*Mulai pekerjaan*//
         
         System.out.print("Masukkan nilai N: ");
         int n = scanner.nextInt();
@@ -19,7 +19,7 @@ public class FizzBuzz {
                 System.out.print(i + " ");
             }
         }
-        //*pekerjaan berakhir*//
+    //*pekerjaan berakhir*//
         scanner.close();
 }
 }
