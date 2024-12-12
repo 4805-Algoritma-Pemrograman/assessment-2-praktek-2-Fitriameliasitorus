@@ -33,19 +33,19 @@ public class TokoBukuTogaPerak {
         // Tampilkan output
         System.out.println("Total voucher belanja = " + voucher);
         System.out.println("Total yang harus dibayar = " + (totalBelanja - voucher));
-    }
+        }
 
-    // Fungsi untuk menghitung total belanja
-    public static int hitungTotalBelanja(ArrayList<Integer> belanja) {
+        // Fungsi untuk menghitung total belanja
+        public static int hitungTotalBelanja(ArrayList<Integer> belanja) {
         int total = 0;
         for (int harga : belanja) {
             total += harga;
         }
         return total;
-    }
+        }
 
-    // Fungsi untuk menghitung voucher
-    public static int hitungVoucher(int totalBelanja) {
+        // Fungsi untuk menghitung voucher
+        public static int hitungVoucher(int totalBelanja) {
         if (totalBelanja < 200000) {
             return 0;
         } else if (totalBelanja < 500000) {
