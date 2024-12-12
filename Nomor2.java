@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class TokoBukuTogaPerak {
     public static void main(String[] args) {
-        //*Mulai pekerjaan*//
+        
         // Daftar buku dan harganya
         String[] buku = {"Sherlock Holmes", "Arsene Lupin", "Game of Throne", "Psychology of Money"};
         int[] harga = {350000, 450000, 500000, 95000};
@@ -57,7 +57,7 @@ public class TokoBukuTogaPerak {
         } else {
             return 200000;
         }
-        //*Bekerjaan selesai*//
+        
     }
 }
 
