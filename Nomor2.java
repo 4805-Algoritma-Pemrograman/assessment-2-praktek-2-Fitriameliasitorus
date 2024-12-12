@@ -58,6 +58,6 @@ public class TokoBukuTogaPerak {
             return 200000;
         }
         
-    }
+}
 }
 
