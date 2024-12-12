@@ -1,12 +1,10 @@
 import java.util.Scanner;
 
-public class Nomor1 {
+public class FizzBuzz {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args){
-        Scanner input = new Scanner(System.in);
-        int N = input.nextInt();
-        /* Pekerjaan anda mulai dari sini */
-         System.out.print("Masukkan nilai N: ");
+        System.out.print("Masukkan nilai N: ");
         int n = scanner.nextInt();
 
         for (int i = 1; i <= n; i++) {
@@ -19,11 +17,7 @@ public class Nomor1 {
             } else {
                 System.out.print(i + " ");
             }
-
-        /* Pekerjaan anda berakhir sini */
+        }
         scanner.close();
-
-        System.out.println(Nomor1.class.getDeclaredMethods().length); 
-    }
-    
+}
 }
